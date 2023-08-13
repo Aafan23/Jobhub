@@ -1,0 +1,1028 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+}
+span{
+    color: #7bb254;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f4f5;
+}
+
+
+
+.navbar-1 {
+    border-bottom: 0.5px solid #dadada6b;
+    height: 5vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw 3vw;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 10px;  
+    position: fixed;
+    overflow: hidden;
+    z-index: 9999;
+}
+.nav-left-logo h3{
+    background-color: #fff;
+    font-size: 3vw;
+}
+.nav-list a{
+color: #474d6a;
+text-decoration: none;
+}
+
+.nav-right-box{
+    display: flex;
+}
+.nav-right-box i{
+    display: none;
+}
+.nav-right-box ul {
+    background-color: #fff;
+    display: flex;
+    gap: 3vw;
+    list-style: none;
+}
+.nav-right-box ul li {
+    background-color: #fff;
+    color: #474d6a;
+    font-size: 1.4vw;
+}
+.nav-right-box ul li:hover {
+    
+    cursor: pointer;
+    font-weight: 600;
+    border-bottom: 2px solid #7bb254;
+}
+
+.nav-right-box button {
+    width: 5vw;
+    height: 2vw;
+    font-size: 1vw;
+    background-color: #7bb254;
+    color: white;
+    border: none;
+    border-radius: 0.8vw;
+    
+}
+
+.nav-right-box button:hover {
+    cursor: pointer;
+    background-color: lightyellow;
+    color: black;
+    border: 1px solid black;
+}
+
+/*Hero Section Start---------------------------------*/
+.hero-section-1 {
+    height: 47vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-bottom: 0.4px solid #dadada;
+
+}
+
+.Hero-section-Left-box-1 {
+    margin-top: 6vw;
+    padding: 7vw 2vw;
+    height: 100%;
+    width: 50%;
+}
+.Hero-section-right-box-2 {
+    margin-top: 5vw;
+    height: 100%;
+    width: 50%;
+}
+
+
+.Hero-section-Left-box-1 h1 {
+    padding: 0vw 1.2vw;
+    font-size: 4vw;
+    color: #183444;
+}
+
+.Hero-section-Left-box-1 span {
+    color: #7bb254;
+   
+}
+
+.Hero-section-Left-box-1 p {
+    width: 44vw;
+    padding-top: 3vw;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    color: grey;
+}
+
+.Hero-section-Left-box-1 button {
+    margin-top: 3vw;
+    background-color: #7bb254;
+    color: white;
+    width: 14vw;
+    height: 4vw;
+    font-size: 1.4vw;
+    border: none;
+    border-radius: 1vw;
+    margin-left: 1vw;
+}
+
+.Hero-section-Left-box-1 button:active {
+    cursor: pointer;
+    background-color: lightyellow;
+    color: black;
+    border: 1px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.Hero-section-Left-box-1 a{
+text-decoration: none;
+color: white;
+}
+.Hero-section-right-box-2 img{
+    height: 40vw;
+    width: 45vw;
+    background-image: url(menback.png);
+    background-repeat: no-repeat;
+    background-size: 46vw;
+    margin-top: 2vw;
+}
+
+/*Hero Section End---------------------------------*/
+
+/*Section-2 Start ---------------------------------*/
+.section-2 {
+    width: 100%;
+    height: 25vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+
+.Section-2-Top-Headline h1 {
+    text-align: center;
+    font-size: 4vw;
+    color: #32364c;
+    margin-top: 1.5vw;
+}
+
+.Section-2-Top-Headline span {
+    color: #7bb254;
+}
+
+.Section-2-Top-Headline {
+    width: 100%;
+    height: 5vw;
+    text-align: center;
+}
+
+.section-2-leftBox-1 {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 31%;
+    height: 18vw;
+    padding: 2vw 3.3vw;
+    background-color: #fff;
+
+}
+
+
+.section-2-leftBox-1 h3 {
+    font-size: 1.5vw;
+    padding-top: 1vw;
+    color: #32364c;
+}
+.section-2-leftBox-1 i{
+    margin-top: 1vw;
+    color: #7ab356; 
+    font-size: 3vw
+}
+
+
+.section-2-leftBox-1 p {
+    padding-top: 0.4vw;
+    font-size: 1vw;
+    color: grey;
+}
+
+.section-2-RightBox-1 {
+    margin-top: 1vw;
+    border: 1px solid red;
+    width: 50%;
+    height: 12vw;
+    padding: 1vw 2vw;
+}
+
+/*Section-2 End ---------------------------------*/
+
+/*Section-3 Start ---------------------------------*/
+.section-3{
+width: 100%;
+height: 7vw;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.section-3-content{
+    border-radius: 10px;
+
+    width: 80%;
+height: 4.5vw;
+}
+.section-3-content h3{
+    color: #32364c;
+    text-align: center;
+    font-size: 3.5vw;
+    padding: 1vw;
+}
+/*Section-3 End ---------------------------------*/
+
+/*Section-4 Start ---------------------------------*/
+.section-4{
+    width: 100%;
+    height: 7vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section-3-box-1{
+    width: 9.5vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3-box-1 img{
+    width: 70%;
+    height: 100%;
+}
+/*Section-4 End ---------------------------------*/
+
+/*Section-5 Start ---------------------------------*/
+.section-5-GetInTouch{
+    margin: 2vw 5vw;
+width: 90%;
+height: 40vw;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #ffffff;
+border-radius: 2.5vw;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+
+}
+.Section-5-GetInTouch-Header h2{
+font-size: 2.5vw;
+}
+.Section-5-GetInTouch-Header{
+    width: 35vw;
+    height: 26vw;
+    padding: 1vw 3vw;
+  
+}
+.input-box-1{
+    margin-top: 2vw; 
+}
+
+.input-box-1 label{
+    font-size: 1.3vw;
+}
+
+.input-box-1 input{
+height: 3.5vw;
+width: 23vw;
+border-radius: 5px;
+border: none;
+background-color: #f2f2f2;
+color: black;
+padding-left: 1vw;
+font-size: 1.2vw;
+}
+.submit-button{
+    margin-top: 2vw; 
+}
+.submit-button button{
+    height: 3.5vw;
+width: 23vw;
+border-radius: 5px;
+border: none;
+background-color:#7ab356;
+color: white;
+font-size: 1.7vw;
+font-weight: 600;
+}
+.Section-5-GetInTouch-Img img{
+    width: 34vw;
+    background-image: url('menback.png');
+    border-bottom-left-radius: 10vw;
+    border-bottom-right-radius: 10vw;
+}
+.Section-5-GetInTouch-Img{
+    margin-top: 6vw;
+    width: 31vw;
+    height: 36vw;
+    border-bottom-left-radius: 10vw;
+    border-bottom-right-radius: 10vw;
+}
+/*Section-5 End ---------------------------------*/
+
+/*footer start ---------------------------------*/
+.footer-section{
+    margin-top: 2vw;
+    background-color:#32364c;
+    width: 100%;
+    height: 30vw;
+}
+.footer-section h1{
+    color: white;
+    text-align: center;
+    padding-top: 7vw;
+    font-size: 2.5vw;
+}
+.footer-nav-links{
+    margin-top: 2vw;
+    text-align: center;
+}
+.footer-nav-links a{
+color: white;
+margin-left: 3vw;
+text-align: center;
+text-decoration: none;
+font-size: 1.4vw;
+}
+.footer-nav-links-icons{
+    text-align: center;
+}
+.footer-nav-links-icons i{
+    margin-left: 2vw;
+    margin-top: 2vw;
+    font-size: 2vw;
+    
+}
+.footer-nav-links-lst-txt{
+    padding-top: 2.5vw;
+    color:rgb(148 148 143);
+    text-align: center;
+    font-size: 1.3vw;
+}
+.footer-nav-links-lst-txt span{
+    color: #a7da8b;
+}
+/*footer End ---------------------------------*/
+
+.section-3B{
+width: 100%;
+height: 40vw;
+display: flex;
+justify-content: space-evenly;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.section-3B-left-box{
+    width: 55%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-3B-right-box{
+    background-color: #fff;
+    width: 45%;
+    height: 100%;
+    padding-top: 7vw;
+}
+.section-3B-right-box h5{
+ font-size: 1.2vw;
+ color: #7ab356;
+}
+.section-3B-right-box h1{
+    margin-top: 0.5vw;
+    font-size: 3.2vw;
+    font-weight: 700;
+}
+.section-3B-right-box p{
+    margin-top: 2vw;
+ font-size: 1vw;
+ color: grey;
+}
+.section-3B-right-box button{
+    border-radius: 1vw;
+    margin-top: 2vw;
+    width: 11vw;
+    height: 3vw;
+    font-size: 1.2vw;
+    text-decoration: none;
+    background-color: #7ab356;
+    border: none;
+    padding: 0vw 1vw;
+}
+.section-3B-right-box a{
+    text-decoration: none;
+    color: #fff;
+}
+.section-3B-left-box img{
+    width: 55vw;
+    height: 57vw;
+}
+
+.Job-section-1-Box{  
+    height: 39vw;
+    width: 100%;
+    
+
+}
+.Job-section-Box{
+    height: 6vw;
+}
+.job-section-img{
+    background-image: url(JOBportal-img.jpg);
+    height: 100%;
+    /* width: 100%; */
+    background-size: cover;
+    
+  
+}
+.imgbox-content{
+text-align: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: #5a6e7a85;;
+}
+.imgbox-content h1{
+    font-size: 4vw;
+    padding-top: 20vw;
+}
+.imgbox-content p{
+font-size: 1vw;
+font-weight: normal;
+}
+.job-posting-box{
+    width: 100%;
+    height: 67vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.jobs-content-boxes{
+    margin-top: 3vw;
+    width: 31vw;
+    height: 35.5vw;
+    background-color: white;
+    border-radius: 5px;
+
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.1);
+}
+.verified-box{
+    display: flex;
+    background-color: #eaf2e0;
+    height: 2.5vw;
+    width: 12vw;
+    border-radius: 17px;
+    padding: 0.5vw 1vw;
+    color: rgb(51, 48, 48);
+    margin: 2vw 0vw 0vw 2vw;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.verified-box img{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.verified-box p{
+font-size: 0.9vw;
+text-align: center;
+font-weight: lighter;
+}
+.Cmp-logo-name{
+    width: 100%;
+    height: 8vw;
+    display: flex;
+    border-bottom: 0.1vw solid rgba(128, 128, 128, 0.266);
+}
+.cmp-logo{
+    width: 9vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cmp-logo img{
+width: 5.5vw;
+    height: 5.5vw;
+    margin-top: 1vw;
+}
+.cmp-name{
+    padding: 2vw 1vw;
+}
+.cmp-name p{
+    font-size: 1vw;
+    color: grey;
+}
+.cmp-name h2{
+    font-size: 2vw;
+    color: #183444;
+}
+.cmp-header-content{
+    width: 100%;
+    height: 13vw;
+    padding: 1vw 1.7vw;
+}
+.cmp-header h2{
+    font-size: 2vw;
+    color: black;
+    font-weight: 400;
+}
+.cmp-content p{
+    margin-top: 1.2vw;
+    font-size: 1.1vw;
+    color: grey;
+    font-weight: 100;
+}
+.main-box{
+
+    width: 100%;
+    height: 9.6vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cmp-salary{
+  
+    width: 15vw;
+    height: 100%;
+    padding: 3vw 1.4vw;
+}
+.period{
+    display: flex;
+}
+.period P{
+    margin-left: 1vw;
+    font-size: 1.1vw;
+    color: grey;
+}
+.salary{
+    margin-top: 0.75vw;
+    display: flex;
+}
+.salary p{
+    margin-left: 1.5vw;
+    font-size: 1.1vw;
+    color: grey;
+}
+.apply-btn button{
+    width: 12vw;
+    height: 3vw;
+    background-color: #72b261;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin: 3vw 1vw;
+    font-size: 1vw;
+}
+.apply-btn button:hover{
+background-color: white;
+color: #72b261;
+border: 1.5px solid #72b261;
+box-shadow: rgba(149, 157, 165, 0.8) 5px 5px 6px;  
+}
+.apply-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.salary i{
+    font-size: 1.3vw;
+}
+.period i{
+    font-size: 1.3vw;
+}
+
+.search-bar{
+    margin-top: 3vw;
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar input{
+    width: 60vw;
+    height: 3.5vw;
+    font-size: 1.2vw;
+    color: black;
+    border: none;
+    text-align: center;
+    outline: none;
+    border-top-left-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+}
+::placeholder {
+    color: #b4b1b1;
+}
+.search-bar a{
+    width: 13vw;
+    height: 3.5vw;
+    font-size: 1.2vw;
+    color: black;
+ background-color: #72b261;
+ border: none;
+padding: 0.9vw 0.9vw;
+ text-decoration: none;
+ color: white;
+ border-top-right-radius: 0.5vw;
+ border-bottom-right-radius: 0.5vw;
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar-1{
+       height: 15vw;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        
+    }
+    .nav-right-box ul li{
+     display: none;
+    }
+    .nav-left-logo h3{
+        font-size: 8vw;
+        margin-left: 4vw;
+        font-weight: 700;
+    }
+    .nav-right-box button {
+        width: 12vw;
+        height: 6vw;
+        font-size: 2.8vw;
+        margin-right: 4vw;
+        
+    }
+    .nav-right-box button:hover {
+        cursor: pointer;
+        background-color: lightyellow;
+        color: black;
+        border: 1px solid black;
+    }
+    .input-box-1{
+        margin-top: 0vw;
+    }
+    .Section-5-GetInTouch-Header{
+        margin-top: 0vw;
+        margin-bottom: 6vw;
+    }
+    .input-box-1 label{
+        font-size: 1.8vw;
+        
+    }
+    .input-box-1 input{
+        width: 27vw;
+        height: 5vw;
+    }
+    .submit-button button{
+        width: 27vw;
+        height: 4vw;
+    }
+    .hero-section-1{
+        display: flex;
+margin-bottom: 40vw;
+        height: 55vw;
+        width: 100%;
+        text-align: center;
+        border: none;
+        
+    }
+    .Hero-section-Left-box-1{
+        width: 100%;
+        position: relative;
+        height: 100%;
+        top: 92vw;
+    }
+    .Hero-section-Left-box-1 h1{
+        font-size: 6.8vw;
+        color: black;
+        padding: 1vw;
+        
+    }
+    .Hero-section-Left-box-1 p{
+        font-size: 4vw;
+        width: auto;
+        padding: 3vw;
+        color: grey;
+        font-weight: 100;
+
+    }
+    .Hero-section-Left-box-1 button{
+        font-size: 4.5vw;
+        width: 90vw;
+        height: 12vw;
+       font-weight: 100;
+
+    }
+    .Hero-section-right-box-2{ 
+        position: relative;
+    width: 100%;
+    height: 100%;
+    bottom: 37vw;
+
+    }
+    .Hero-section-right-box-2 img{
+        background-size: 103%;
+        width: 77vw;
+        height: 72vw;
+        border-radius: 39vw;
+    }
+    .Section-2-Top-Headline{
+        margin-top: 120vw;
+    }
+    .Section-2-Top-Headline h1{
+        font-size: 7vw;
+    }
+    .section-2{
+margin-top: 5vw;
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+    }
+    .section-2-leftBox-1{
+        margin-top: 3vw;
+        width: 91vw;
+        height: 45vw;
+            }
+            .section-2-leftBox-1 h3{
+                font-size: 4vw;
+            }   
+            .section-2-leftBox-1 p{
+                padding: 5vw;
+                font-size: 3vw;
+                color: grey;
+                font-weight: 100;
+            }   
+            
+        .section-3{
+            margin-top: 4vw;
+        }
+        .section-3-content h3{
+            font-size: 5vw;
+        }
+        .section-3-box-1 {
+            margin-top: 3vw;
+    width: 15vw;
+    height: 7vw;
+        }
+        .section-4{
+            margin-top: 4.5vw;
+        }
+        .section-5-GetInTouch{
+            margin-top: 5vw;
+    height: 52vw;
+    width: 100%;
+    margin-left: 0vw;
+        }
+        .Section-5-GetInTouch-Header{
+            height: 37vw;
+            width: 58vw;
+      
+        }
+        .Section-5-GetInTouch-Header h2{
+            font-size: 4.2vw;
+        }
+        .input-box-1 label{
+            padding-bottom: 0vw;
+    font-size: 3vw;
+        }
+        .input-box-1 input{
+            margin-top: 1vw;
+            font-size: 2vw;
+            width: 44vw;
+            font-weight: 100;
+        }
+        .input-box-1{
+            margin-top: 2vw;
+            width: 42vw;
+        }
+        .submit-button button{
+            margin-left: 8vw;
+            font-size: 2.5vw;
+            width: 26vw;
+            height: 5vw;
+            font-weight: 100;
+        }
+        .Section-5-GetInTouch-Img img{
+            background-image: url(menback.png);
+    width: 42vw;
+    border-bottom-left-radius: 21vw;
+    border-bottom-right-radius: 11vw;
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    background-position: center;
+        }
+        .footer-section h1{
+            padding-top: 7vw;
+            font-size: 6.5vw;
+        }
+        .footer-nav-links{
+            margin-top: 2vw;
+            text-align: center;
+        }
+        .footer-nav-links a{
+       
+        text-align: center;
+        text-decoration: none;
+        font-size: 2.7vw;
+        }
+        .footer-nav-links-icons{
+            text-align: center;
+        }
+        .footer-nav-links-icons i{
+            margin-left: 2vw;
+            margin-top: 3vw;
+            font-size: 3.5vw;
+            
+        }
+        .footer-nav-links-lst-txt{
+            padding-top: 2.5vw;
+            font-size: 2.2vw;
+            font-weight: 100;
+        }
+        .footer-section{
+            height: 46vw;
+        }
+        .section-3B{
+            margin-top: 121vw;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            height: 142vw;
+            box-shadow: none;
+        }
+        .section-2-leftBox-1 i {
+            font-size: 8vw;
+            padding-top: 2vw;
+        }
+        .section-3B-left-box{
+            margin-top: 2vw;
+            width: 100%;
+            height: 60%; 
+
+        }
+        .section-3B-left-box img{
+            width: 100%;
+            height: 100vw; 
+        }
+        .section-3B-right-box button{
+            font-size: 4vw;
+            width: 38vw;
+            height: 9vw;
+            text-align: center;
+            margin-top: 7vw
+        }
+        .section-3B-right-box h1{
+            font-size: 6vw;
+        }
+        .section-3B-right-box h5{
+            font-size: 3vw;
+    font-weight: 500;
+        }
+        .section-3B-right-box{
+            width: 100%;
+            padding: 5vw;
+            height: 43%;
+        }
+        .section-3B-right-box p{
+            text-align: center;
+    font-size: 2.5vw;
+    font-weight: 100;
+            
+        }
+        .Section-5-GetInTouch-Img {
+            width: 38vw;
+            position: relative;
+            right: 4vw;
+            bottom: 2vw;
+            background-image: url("menback.png");
+        }
+        .imgbox-content h1{
+            font-size: 5.5vw;
+        }
+        .imgbox-content p{
+            padding: 1vw 5vw;
+            font-size: 1.5vw;
+        }
+        .jobs-content-boxes{
+            width: 90vw;
+    height: 105vw;
+    padding: 4vw;
+        }
+        .verified-box{
+            width: 30vw;
+            height: 5vw;
+        }
+        .verified-box p{
+           font-size: 2vw;
+           padding-right: 4vw;
+        }
+        .verified-box img{
+            width: 4vw;
+    height: 4vw;
+         }
+         .cmp-logo{
+            width: 20vw;
+            height: 18vw;
+            margin: 2vw;
+         }
+.cmp-logo img{
+    width: 100%;
+    height: 100%;
+}
+.cmp-name{
+    padding: 7vw 7vw;
+}
+.cmp-name h2{
+    font-size: 5vw;
+}
+.cmp-name p{
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+.cmp-header-content{
+    margin-top: 5vw;
+}
+.Cmp-logo-name{
+    width: 100%;
+    height: auto;
+}
+.cmp-header-content{
+    width: 100%;
+    height: auto;
+}
+.cmp-header h2{
+    font-size: 5.5vw;
+    padding: 0vw 3vw;
+}
+.cmp-content p{
+    font-size: 2.5vw;
+    padding: 2vw 3vw;
+}
+.main-box{
+    width: 100%;
+    height: 39%;
+    display: flex;
+    flex-direction: column;
+}
+.cmp-salary{
+    width: 93%;
+    height: 44%;
+    margin-left: 3vw;
+    margin-top: 5vw;
+}
+.period i{
+font-size: 4vw;
+}
+.period p{
+    font-size: 3.3vw;
+    margin-left: 3vw;
+}
+.salary i{
+    font-size: 4vw;
+}
+.salary p{
+    font-size: 3.3vw;
+    margin-left: 4vw;
+}
+.apply-btn{
+    width: 100%;
+}
+.apply-btn button{
+    width: 76vw;
+    height: 8.5vw;
+    font-size: 3.5vw;
+}
+.nav-right-box i{
+    display: block;
+font-size: 6vw;
+padding-left: 0vw;
+position: relative;
+right: 3vw;
+}
+
+}
